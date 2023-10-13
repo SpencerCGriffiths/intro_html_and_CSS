@@ -1,0 +1,41 @@
+* {
+    margin: 1rem;
+    padding: 0;
+    background-color: #cc9e06;
+    box-sizing: border-box;
+}
+img {
+    width: 25rem;
+    height: 15rem;
+    border-radius: 5rem;
+    border: solid;
+}
+.heading {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+    font-size: 0.75rem;    
+    text-align: center;
+}
+
+li {
+    color: #170482;
+    margin-left: 2rem;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+p {
+    padding-left: 1.5rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    grid-auto-rows: minmax(4rem, auto);
+    background-color: darkkhaki;
+  }
